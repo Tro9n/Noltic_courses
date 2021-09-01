@@ -1,0 +1,8 @@
+<template>
+    <lightning-input label="Text" name="note" value={note} onchange={handleFormChange}></lightning-input>
+    <button onclick={handleButtonClick}>Enter</button>
+    <template for:each={arr} for:item="item">
+        <c-note key={item.key} text={item.value}>
+        </c-note>
+    </template>
+</template>
