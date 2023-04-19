@@ -1,0 +1,8 @@
+https://login.microsoftonline.com/{tenantID}/oauth2/token
+tenantID = “0b93d5cb-383b-45d9-a107-0c95538ee686”
+https://management.azure.com/subscriptions/{{subscriptionId}}/resourceGroups/{{resourceGroupName}}/providers/Microsoft.DataFactory/factories/{{factoryName}}/pipelines/{{pipelines}}/createRun?api-version={{apiVersion}}
+subscriptionId = “0e89b94d-5473-46d8-a08a-b9a5b3711d55"
+resourceGroupName = “Sandbox”
+factoryName = “BHDataFactory1"
+pipelines = “CopyData”
+apiVersion = “2018-06-01"
